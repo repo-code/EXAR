@@ -127,7 +127,6 @@ class CodeBlock extends React.Component {
                                             {testFile && (
                                                 <Button
                                                     variant="primary"
-                                                    title="تحقق من الاجابة"
                                                     onClick={() =>
                                                         runCode(value =>
                                                             makeTest(testTemplate, testFile, value)
