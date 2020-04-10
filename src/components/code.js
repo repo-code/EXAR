@@ -125,7 +125,7 @@ class CodeBlock extends React.Component {
                                         <>
                                             <Button onClick={() => runCode()}>Run Code</Button>
                                             {testFile && (
-                                                <Button title="تحقق من الاجابة"
+                                                <Button
                                                     variant="primary"
                                                     onClick={() =>
                                                         runCode(value =>
