@@ -12,16 +12,16 @@ id: 1
   
 <div dir="RTL">  
   
-<p dir=rtl align="right" style="text-align:justify; direction: rtl; line-height:1.5">
+<p line-height:1.5">
 <strong>
-<font size="1.5rem" color="#09bef3" face="cairo">
+<font size="4" color="#09bef3" face="cairo">
 تلميحات:
 </font>
 </strong>
 </p>
 
-<ol dir=rtl align="justify"  style="text-align:justify; direction:rtl; line-height:1.5">
-<font size="1.2" face="cairo">
+<ol line-height:1.5">
+<font size="3" face="cairo">
 <li>
 لا تنسى استخدام الوظيفة funct()
 </li>
@@ -33,23 +33,23 @@ id: 1
 </font>
 </ol> 
 
-<p dir=rtl align="justify" style="text-align:justify; direction: rtl; line-height:1.5">
-<font size="4" face="cairo"> 
+<p line-height:1.5">
+<font size="3" face="cairo"> 
 اطلع على الملف التالي <a href="https://github.com/" target="_blank">اضغط هنا</a> من اجل تعلم طريقة صناعة وظيفة
 </font>
 </p>
 
 
-<p dir=rtl align="right" style="text-align:justify; direction: rtl; line-height:1.5">
+<p line-height:1.5">
 <strong>
-<font size="5" color="#09bef3" face="cairo">
+<font size="4" color="#09bef3" face="cairo">
 الملاحظات:
 </font>
 </strong>
 </p>
 
-<ul dir=rtl align="justify"  style="text-align:justify; direction: rtl; line-height:1.5">
-<font size="4" face="cairo">
+<ul line-height:1.5">
+<font size="3" face="cairo">
 <li>
 عند تنفيذ الكود قد يستغرق الاتصال بالخادم (في المرة الاولى فقط) بعض الوقت، لكن بعد ذلك سوف يكون الاتصال اسرع بكثير
 </li>
