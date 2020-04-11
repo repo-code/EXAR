@@ -21,7 +21,7 @@ id: 1
 </p>
 
 <ol line-height:1.5">
-<font size="3.5" face="cairo">
+<font size="4" face="cairo">
 <li>
 لا تنسى استخدام الوظيفة funct()
 </li>
@@ -34,7 +34,7 @@ id: 1
 </ol> 
 
 <p line-height:1.5">
-<font size="3.5" face="cairo"> 
+<font size="4" face="cairo"> 
 اطلع على الملف التالي <a href="https://github.com/" target="_blank">اضغط هنا</a> من اجل تعلم طريقة صناعة وظيفة
 </font>
 </p>
@@ -49,7 +49,7 @@ id: 1
 </p>
 
 <ul line-height:1.5">
-<font size="3.5" face="cairo">
+<font size="4" face="cairo">
 <li>
 من اجل تنفيذ الكود ومشاهدة ناتج الكود اضغط على زر <strong>تنفيذ الكود</strong>
 </li>
@@ -83,7 +83,7 @@ id: 1
 </p>
 
 <ul line-height:1.5">
-<font size="3.5" face="cairo">
+<font size="4" face="cairo">
 <li>
 عند تنفيذ الكود قد يستغرق الاتصال بالخادم (في المرة الاولى فقط) بعض الوقت، لكن بعد ذلك سوف يكون الاتصال اسرع بكثير
 </li>
