@@ -11,7 +11,7 @@ export const Hint = ({ expanded = false, actions = [], children }) => {
             <menu className={classes.actions}>
                 {children && (
                     <button className={classes.label} onClick={handleExpand}>
-                        {isExpanded ? 'اخفاء المساعدة' : 'اظهار المساعدة'}
+                        {isExpanded ? 'إخفاء المساعدة' : 'إظهار المساعدة'}
                     </button>
                 )}
                 {actions.map(({ text, onClick }, i) => (
