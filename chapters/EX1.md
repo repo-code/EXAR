@@ -16,7 +16,6 @@ id: 1
 تلميحات:
 </font>
 </strong>
-</p>
 
 <ol dir=rtl align="right"  style="text-align:justify; direction:rtl; line-height:1.5">
 <font size="4" face="cairo">
@@ -30,6 +29,10 @@ id: 1
 
 </font>
 </ol> 
+
+</p>
+
+
 
 <p dir=rtl align="justify" style="text-align:justify; direction: rtl; line-height:1.5">
 <font size="4" face="cairo"> 
