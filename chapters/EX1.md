@@ -18,7 +18,7 @@ id: 1
 </strong>
 </p>
 
-<ol dir="rtl" align="justify"  style="text-align:justify; direction:rtl; line-height:1.5">
+<ol dir=rtl align="right"  style="text-align:justify; direction:rtl; line-height:1.5">
 <font size="4" face="cairo">
 <li>
 لا تنسى استخدام الوظيفة funct()
