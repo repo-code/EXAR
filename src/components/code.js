@@ -123,7 +123,7 @@ class CodeBlock extends React.Component {
                                     debug={debug}
                                     actions={({ runCode }) => (
                                         <>
-                                            <Button onClick={() => runCode()}>Run Code</Button>
+                                            <Button onClick={() => runCode()}>تنفيذ الكود</Button>
                                             {testFile && (
                                                 <Button
                                                     variant="primary"
@@ -133,7 +133,7 @@ class CodeBlock extends React.Component {
                                                         )
                                                     }
                                                 >
-                                                    Submit
+                                                    إرسال الاجابة
                                                 </Button>
                                             )}
                                         </>
