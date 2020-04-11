@@ -28,7 +28,7 @@ class Juniper extends React.Component {
         debug: true,
         msgButton: 'run',
         msgLoading: '..جاري التحميل',
-        msgError: '.فشل الإتصال. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى',
+        msgError: '.فشل الاتصال. يرجى اعادة تحميل الصفحة والمحاولة مرة أخرى',
         classNames: {
             cell: 'juniper-cell',
             input: 'juniper-input',
@@ -232,7 +232,7 @@ class Juniper extends React.Component {
         }
         this.log(() => console.info('requesting kernel'))
         const url = this.props.url.split('//')[1]
-        const action = !this.state.fromStorage ? '...جاري الاتصال بالخادم. يرجى الإنتظار' : '...جاري إعادة الاتصال بالخادم. يرجى الإنتظار'
+        const action = !this.state.fromStorage ? '...جاري الاتصال بالخادم. يرجى الانتظار' : '...جاري اعادة الاتصال بالخادم. يرجى الانتظار'
         outputArea.model.clear()
         outputArea.model.add({
             output_type: 'stream',
