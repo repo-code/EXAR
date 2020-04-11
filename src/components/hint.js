@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react'
 
 import classes from '../styles/hint.module.sass'
@@ -7,18 +8,18 @@ export const Hint = ({ expanded = false, actions = [], children }) => {
     const handleExpand = useCallback(() => setIsExpanded(!isExpanded), [isExpanded])
     return (
         <aside className={classes.root}>
-            {isExpanded && children && <div className={classes.content}>{children}</div>}
-            <menu className={classes.actions}>
-                {children && (
+                {actions.map(({ text, onClick }, i) => (
                     <button className={classes.label} key={i} onClick={onClick}>
                         {text}
                     </button>
-                )}
-                {actions.map(({ text, onClick }, i) => (
-                    <button className={classes.label} onClick={handleExpand}>
-                    {isExpanded ? 'اخفاء التلميحات' : 'اظهار التلميحات'}                        
-                    </button>
                 ))}
+            {isExpanded && children && <div className={classes.content}>{children}</div>}
+            <menu className={classes.actions}>
+                {children && (
+                    <button className={classes.label} onClick={handleExpand}>
+                        {isExpanded ? 'اخفاء التلميحات' : 'اظهار التلميحات'}
+                    </button>
+                )}
             </menu>
         </aside>
     )
