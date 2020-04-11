@@ -10,15 +10,18 @@ id: 1
 
 <codeblock id="01_03">
   
+<div dir="RTL">  
+  
 <p dir=rtl align="right" style="text-align:justify; direction: rtl; line-height:1.5">
 <strong>
-<font size="5" color="#09bef3" face="cairo">
+<font size="1.5rem" color="#09bef3" face="cairo">
 تلميحات:
 </font>
 </strong>
+</p>
 
-<ol dir=rtl align="right"  style="text-align:justify; direction:rtl; line-height:1.5">
-<font size="4" face="cairo">
+<ol dir=rtl align="justify"  style="text-align:justify; direction:rtl; line-height:1.5">
+<font size="1.2" face="cairo">
 <li>
 لا تنسى استخدام الوظيفة funct()
 </li>
@@ -29,10 +32,6 @@ id: 1
 
 </font>
 </ol> 
-
-</p>
-
-
 
 <p dir=rtl align="justify" style="text-align:justify; direction: rtl; line-height:1.5">
 <font size="4" face="cairo"> 
@@ -65,6 +64,8 @@ id: 1
 
 </font>
 </ul> 
+
+</div>
 
 </codeblock>
 
