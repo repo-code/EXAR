@@ -10,13 +10,13 @@ export const Hint = ({ expanded = false, actions = [], children }) => {
             {isExpanded && children && <div className={classes.content}>{children}</div>}
             <menu className={classes.actions}>
                 {children && (
-                    <button className={classes.label} onClick={handleExpand}>
-                        {isExpanded ? 'إخفاء التلميحات' : 'إظهار التلميحات'}
+                    <button className={classes.label} key={i} onClick={onClick}>
+                        {text}
                     </button>
                 )}
                 {actions.map(({ text, onClick }, i) => (
-                    <button className={classes.label} key={i} onClick={onClick}>
-                        {text}
+                    <button className={classes.label} onClick={handleExpand}>
+                    {isExpanded ? 'اخفاء التلميحات' : 'اظهار التلميحات'}                        
                     </button>
                 ))}
             </menu>
